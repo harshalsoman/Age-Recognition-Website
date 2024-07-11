@@ -15,6 +15,12 @@ This project is a web-based application for age recognition using machine learni
    git clone https://github.com/harshalsoman/Age-Recognition-Website.git
 
 ### Usage
-In the terminal type
-  ```sh
-   python manage.py runserver
+1. Apply migrations:
+   ```sh
+    python manage.py migrate
+2. Create a superuser:
+   ```sh
+    python manage.py createsuperuser
+3. Run the development server:
+   ```sh
+     python manage.py runserver
